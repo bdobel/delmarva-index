@@ -19,58 +19,20 @@ export default class Header extends Component {
           <a to="/" className="item">
             <img className='logo' src={logoSVG} alt='logo' />
           </a>
-          <div className="right menu middle aligned">
-            <a to="/" className="item " id="color-di-blue">
+          <div class="right menu">
+            <a to="/about" id="link" className="item">
               About Us
             </a>
-            <a to="/" className="item">
+            <a to="/" id="link"className="item">
               Catalog
             </a>
-            <a to="/" className="item">
+            <a to="/" id="link" className="item">
               Apps
             </a>
           </div>
         </div>
-        <div class="ui items">
-          <div class="item">
-            <div class="ui small image">
-              word
-            </div>
-            <div class="middle aligned content">
-              <div class="header">
-                Middle Aligned
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="navbar-extra"></div>
+      <div id="navbar-extra"></div>
       </div>
-
-      // <Menu stackable>
-      //   <Menu.Item>
-      //     <img className='logo' src={logo} alt='logo' />
-      //   </Menu.Item>
-
-      //   <Menu.Item
-      //     name='features'
-      //     active={activeItem === 'features'}
-      //     onClick={this.handleItemClick}
-      //   >
-      //     Features
-      //   </Menu.Item>
-
-      //   <Menu.Item
-      //     name='testimonials'
-      //     active={activeItem === 'testimonials'}
-      //     onClick={this.handleItemClick}
-      //   >
-      //     Testimonials
-      //   </Menu.Item>
-
-      //   <Menu.Item name='sign-in' active={activeItem === 'sign-in'} onClick={this.handleItemClick}>
-      //     Sign-in
-      //   </Menu.Item>
-      // </Menu>
     );
   }
 }

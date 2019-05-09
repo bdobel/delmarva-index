@@ -1,0 +1,12 @@
+#card-title {
+  color: #246ab5;
+}
+
+.card-desc {
+  margin-bottom: 1.5em;
+}
+
+#button-green {
+  background-color: #8dc126;
+  color: white;
+}

@@ -1,0 +1,55 @@
+.hero-image {
+  background-image: url("../img/esl.jpg");
+  height: 500px;;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ui.grid {
+  height: 100%;
+}
+
+.hero-text {
+  height: 100%;
+  /* position: absolute;
+  padding-top: 100px; */
+  /* top: 20%; */
+  /* left: 30%; */
+  /* transform: translate(-50%, -50%); */
+  color: white;
+}
+
+.hero-phrase {
+  text-transform: uppercase;
+  font-size: 5em;
+  font-weight: 300;
+  margin: auto;
+  height: 75px;
+  padding-left: 100px;
+}
+
+.hero-paragraph {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+  margin-left: 5px;
+  padding-left: 100px;
+}
+
+.toUpper {
+  text-transform: uppercase;
+}
+
+.bottom-skinny {
+  margin-bottom: 0.25em;
+}
+
+.bottom-skinniest {
+  margin-bottom: 0em;
+}
+
+.hero-card {
+  padding-top: 40px;
+  padding-left: 200px;
+}

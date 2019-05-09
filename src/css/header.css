@@ -1,10 +1,11 @@
-/* navbar */
 .logo {
-  width: 200px !important;
+  width: 250px !important;
 }
 
-#color-di-blue {
-  color: 'red' !important;
+#link {
+  color: #246ab5;
+  font-size: 1.25em;
+  padding-bottom: 1.9em;
 }
 
 #navbar {
@@ -12,75 +13,15 @@
   border-bottom: none;
 }
 
+#navbar .ui.items {
+  margin-top: 0px;
+}
+
 #navbar-extra {
   height: 50px;
   background-color: #246ab5
 }
 
-/* jumbotron */
-.hero-image {
-  background-image: url("../img/esl.jpg");
-  height: 500px;;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: left;
-  position: absolute;
-  top: 50%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.hero-phrase {
-  text-transform: uppercase;
-  font-size: 5em;
-  font-weight: 300;
-  margin: auto;
-  height: 75px;
-}
-
-.hero-paragraph {
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.25em;
-  margin-left: 5px;
-}
-
-.toUpper {
-  text-transform: uppercase;
-}
-
-/* margins */
-.bottom-skinny {
-  margin-bottom: 0.25em;
-}
-
-.bottom-skinniest {
-  margin-bottom: 0em;
-}
-
-.bottom-fatter {
-  margin-bottom: 1.5em;
-}
-
-/* .right {
-  position: absolute;
-  right: 0px;
-  width: 300px;
-  border: 3px solid #73AD21;
-  padding: 10px;
-} */
-
-/* themes */
-#color-background-index-green {
-  background-color: #8dc126;
-  color: white;
-}
-
-#color-index-blue {
-  color: #246ab5;
+.right.menu {
+  padding-right: 50px;
 }

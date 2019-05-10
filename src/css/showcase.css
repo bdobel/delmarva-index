@@ -1,0 +1,9 @@
+.showcase-phrase h1 {
+  margin: 2rem 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.ui.container.center.aligned {
+  margin-bottom: 2em;
+}
